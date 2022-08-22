@@ -2,11 +2,11 @@
 
 const telegramBot = require('node-telegram-bot-api');
 
-const token = '5453119126:AAGO4_PRWtUkwvqjTyHyFylyM_FyvObI360';
+const token = 'TOKENCHAT';
 
-const idChannel = '-1001734694248';
+const idChannel = 'CHANELID';
 
-const ID = '5478667405';
+const ID = 'IDCHAT';
 
 const TelegramBot = require('node-telegram-bot-api');
 
