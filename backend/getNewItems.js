@@ -1,7 +1,7 @@
 const scrape = require('./scrape');
 const { telegramBot } = require('./telegramBot');
 
-const token = '5453119126:AAGO4_PRWtUkwvqjTyHyFylyM_FyvObI360';
+const token = 'SEUTOKEN';
 
 var intervalId = null;
 var oldItems = false;
@@ -16,7 +16,7 @@ async function checkNewItemsNotification(url, ms) {
             for (let i in newItems) {
                   let item = newItems[i];
 
-                  let chat_id = -1001734694248;
+                  let chat_id = 'CHAT'
                   let photo = item.image;
 
                   const opts = {
