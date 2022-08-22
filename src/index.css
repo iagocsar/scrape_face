@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+
+  body {
+  background-color: #404040
+  }
+
+  .active {
+   background: #525252;
+   padding: 1rem;
+   border-radius: 1rem; 
+  }
+
+  .modalHref {
+    font: white ;
+    position: fixed;
+    top: 8%;
+    left: 65%;
+    
+    
+  }
+
+  .modalContainer {
+    transition: width 2s, height 4s;
+    transition: 200;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200,200,200,0.6);
+    justify-content:center ;
+    align-items:center;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+  }
+
+.imgMkt {
+  width: 150px;
+}
